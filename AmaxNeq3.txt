@@ -1,0 +1,282 @@
+Amax, n = 3
+
+time = 0
+possibleWorks:w14-4h, w12-6h, w13-7h, 
+worker0 isn't working atm
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w13 ends at time = 7, w12 ends at time = 6, w14 ends at time = 4, 
+--------------------------------------------------------------------------------------
+time = 1
+possibleWorks:
+worker0 ends at time = 7
+worker1 ends at time = 6
+worker2 ends at time = 4
+Done works:
+ATM works:w13 ends at time = 7, w12 ends at time = 6, w14 ends at time = 4, 
+--------------------------------------------------------------------------------------
+time = 2
+possibleWorks:
+worker0 ends at time = 7
+worker1 ends at time = 6
+worker2 ends at time = 4
+Done works:
+ATM works:w13 ends at time = 7, w12 ends at time = 6, w14 ends at time = 4, 
+--------------------------------------------------------------------------------------
+time = 3
+possibleWorks:
+worker0 ends at time = 7
+worker1 ends at time = 6
+worker2 ends at time = 4
+Done works:
+ATM works:w13 ends at time = 7, w12 ends at time = 6, w14 ends at time = 4, 
+--------------------------------------------------------------------------------------
+time = 4
+possibleWorks:
+worker0 ends at time = 7
+worker1 ends at time = 6
+worker2 isn't working atm
+Done works:w14, 
+ATM works:w13 ends at time = 7, w12 ends at time = 6, 
+--------------------------------------------------------------------------------------
+time = 5
+possibleWorks:
+worker0 ends at time = 7
+worker1 ends at time = 6
+worker2 isn't working atm
+Done works:
+ATM works:w13 ends at time = 7, w12 ends at time = 6, 
+--------------------------------------------------------------------------------------
+time = 6
+possibleWorks:w24-4h, w23-6h, 
+worker0 ends at time = 7
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:w12, 
+ATM works:w13 ends at time = 7, w23 ends at time = 12, w24 ends at time = 10, 
+--------------------------------------------------------------------------------------
+time = 7
+possibleWorks:
+worker0 isn't working atm
+worker1 ends at time = 12
+worker2 ends at time = 10
+Done works:w13, 
+ATM works:w23 ends at time = 12, w24 ends at time = 10, 
+--------------------------------------------------------------------------------------
+time = 8
+possibleWorks:
+worker0 isn't working atm
+worker1 ends at time = 12
+worker2 ends at time = 10
+Done works:
+ATM works:w23 ends at time = 12, w24 ends at time = 10, 
+--------------------------------------------------------------------------------------
+time = 9
+possibleWorks:
+worker0 isn't working atm
+worker1 ends at time = 12
+worker2 ends at time = 10
+Done works:
+ATM works:w23 ends at time = 12, w24 ends at time = 10, 
+--------------------------------------------------------------------------------------
+time = 10
+possibleWorks:w46-4h, w45-6h, w47-6h, 
+worker0 isn't working atm
+worker1 ends at time = 12
+worker2 isn't working atm
+Done works:w24, 
+ATM works:w23 ends at time = 12, w47 ends at time = 16, w45 ends at time = 16, 
+--------------------------------------------------------------------------------------
+time = 11
+possibleWorks:w46-4h, 
+worker0 ends at time = 16
+worker1 ends at time = 12
+worker2 ends at time = 16
+Done works:
+ATM works:w23 ends at time = 12, w47 ends at time = 16, w45 ends at time = 16, 
+--------------------------------------------------------------------------------------
+time = 12
+possibleWorks:w46-4h, w35-5h, w38-5h, 
+worker0 ends at time = 16
+worker1 isn't working atm
+worker2 ends at time = 16
+Done works:w23, 
+ATM works:w47 ends at time = 16, w45 ends at time = 16, w38 ends at time = 17, 
+--------------------------------------------------------------------------------------
+time = 13
+possibleWorks:w46-4h, w35-5h, 
+worker0 ends at time = 16
+worker1 ends at time = 17
+worker2 ends at time = 16
+Done works:
+ATM works:w47 ends at time = 16, w45 ends at time = 16, w38 ends at time = 17, 
+--------------------------------------------------------------------------------------
+time = 14
+possibleWorks:w46-4h, w35-5h, 
+worker0 ends at time = 16
+worker1 ends at time = 17
+worker2 ends at time = 16
+Done works:
+ATM works:w47 ends at time = 16, w45 ends at time = 16, w38 ends at time = 17, 
+--------------------------------------------------------------------------------------
+time = 15
+possibleWorks:w46-4h, w35-5h, 
+worker0 ends at time = 16
+worker1 ends at time = 17
+worker2 ends at time = 16
+Done works:
+ATM works:w47 ends at time = 16, w45 ends at time = 16, w38 ends at time = 17, 
+--------------------------------------------------------------------------------------
+time = 16
+possibleWorks:w46-4h, w35-5h, w78-7h, 
+worker0 isn't working atm
+worker1 ends at time = 17
+worker2 isn't working atm
+Done works:w47, w45, 
+ATM works:w38 ends at time = 17, w78 ends at time = 23, w35 ends at time = 21, 
+--------------------------------------------------------------------------------------
+time = 17
+possibleWorks:w46-4h, 
+worker0 ends at time = 23
+worker1 isn't working atm
+worker2 ends at time = 21
+Done works:w38, 
+ATM works:w78 ends at time = 23, w35 ends at time = 21, w46 ends at time = 21, 
+--------------------------------------------------------------------------------------
+time = 18
+possibleWorks:
+worker0 ends at time = 23
+worker1 ends at time = 21
+worker2 ends at time = 21
+Done works:
+ATM works:w78 ends at time = 23, w35 ends at time = 21, w46 ends at time = 21, 
+--------------------------------------------------------------------------------------
+time = 19
+possibleWorks:
+worker0 ends at time = 23
+worker1 ends at time = 21
+worker2 ends at time = 21
+Done works:
+ATM works:w78 ends at time = 23, w35 ends at time = 21, w46 ends at time = 21, 
+--------------------------------------------------------------------------------------
+time = 20
+possibleWorks:
+worker0 ends at time = 23
+worker1 ends at time = 21
+worker2 ends at time = 21
+Done works:
+ATM works:w78 ends at time = 23, w35 ends at time = 21, w46 ends at time = 21, 
+--------------------------------------------------------------------------------------
+time = 21
+possibleWorks:w58-3h, w56-4h, 
+worker0 ends at time = 23
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:w35, w46, 
+ATM works:w78 ends at time = 23, w56 ends at time = 25, w58 ends at time = 24, 
+--------------------------------------------------------------------------------------
+time = 22
+possibleWorks:
+worker0 ends at time = 23
+worker1 ends at time = 25
+worker2 ends at time = 24
+Done works:
+ATM works:w78 ends at time = 23, w56 ends at time = 25, w58 ends at time = 24, 
+--------------------------------------------------------------------------------------
+time = 23
+possibleWorks:
+worker0 isn't working atm
+worker1 ends at time = 25
+worker2 ends at time = 24
+Done works:w78, 
+ATM works:w56 ends at time = 25, w58 ends at time = 24, 
+--------------------------------------------------------------------------------------
+time = 24
+possibleWorks:
+worker0 isn't working atm
+worker1 ends at time = 25
+worker2 isn't working atm
+Done works:w58, 
+ATM works:w56 ends at time = 25, 
+--------------------------------------------------------------------------------------
+time = 25
+possibleWorks:w68-5h, 
+worker0 isn't working atm
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:w56, 
+ATM works:w68 ends at time = 30, 
+--------------------------------------------------------------------------------------
+time = 26
+possibleWorks:
+worker0 ends at time = 30
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w68 ends at time = 30, 
+--------------------------------------------------------------------------------------
+time = 27
+possibleWorks:
+worker0 ends at time = 30
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w68 ends at time = 30, 
+--------------------------------------------------------------------------------------
+time = 28
+possibleWorks:
+worker0 ends at time = 30
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w68 ends at time = 30, 
+--------------------------------------------------------------------------------------
+time = 29
+possibleWorks:
+worker0 ends at time = 30
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w68 ends at time = 30, 
+--------------------------------------------------------------------------------------
+time = 30
+possibleWorks:w89-4h, 
+worker0 isn't working atm
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:w68, 
+ATM works:w89 ends at time = 34, 
+--------------------------------------------------------------------------------------
+time = 31
+possibleWorks:
+worker0 ends at time = 34
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w89 ends at time = 34, 
+--------------------------------------------------------------------------------------
+time = 32
+possibleWorks:
+worker0 ends at time = 34
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w89 ends at time = 34, 
+--------------------------------------------------------------------------------------
+time = 33
+possibleWorks:
+worker0 ends at time = 34
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:
+ATM works:w89 ends at time = 34, 
+--------------------------------------------------------------------------------------
+time = 34
+possibleWorks:
+worker0 isn't working atm
+worker1 isn't working atm
+worker2 isn't working atm
+Done works:w89, 
+ATM works:
+--------------------------------------------------------------------------------------
