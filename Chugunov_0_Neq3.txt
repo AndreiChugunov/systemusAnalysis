@@ -1,0 +1,457 @@
+Amax, N = 3
+time = 0
+possibleWorks:
+     w14: time = 4h, reserved time = 9h
+     w12: time = 6h, reserved time = 0h
+     w13: time = 7h, reserved time = 5h
+workers:
+     worker0 isn't working at the moment
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w13 ends at time = 7
+     w12 ends at time = 6
+     w14 ends at time = 4
+
+--------------------------------------------------------------------------------------
+time = 1
+possibleWorks:
+workers:
+     worker0 ends at time = 7 doing w13
+     worker1 ends at time = 6 doing w12
+     worker2 ends at time = 4 doing w14
+Done works:
+At the moment works:
+     w13 ends at time = 7
+     w12 ends at time = 6
+     w14 ends at time = 4
+
+--------------------------------------------------------------------------------------
+time = 2
+possibleWorks:
+workers:
+     worker0 ends at time = 7 doing w13
+     worker1 ends at time = 6 doing w12
+     worker2 ends at time = 4 doing w14
+Done works:
+At the moment works:
+     w13 ends at time = 7
+     w12 ends at time = 6
+     w14 ends at time = 4
+
+--------------------------------------------------------------------------------------
+time = 3
+possibleWorks:
+workers:
+     worker0 ends at time = 7 doing w13
+     worker1 ends at time = 6 doing w12
+     worker2 ends at time = 4 doing w14
+Done works:
+At the moment works:
+     w13 ends at time = 7
+     w12 ends at time = 6
+     w14 ends at time = 4
+
+--------------------------------------------------------------------------------------
+time = 4
+possibleWorks:
+workers:
+     worker0 ends at time = 7 doing w13
+     worker1 ends at time = 6 doing w12
+     worker2 isn't working at the moment
+Done works:w14, 
+At the moment works:
+     w13 ends at time = 7
+     w12 ends at time = 6
+
+--------------------------------------------------------------------------------------
+time = 5
+possibleWorks:
+workers:
+     worker0 ends at time = 7 doing w13
+     worker1 ends at time = 6 doing w12
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w13 ends at time = 7
+     w12 ends at time = 6
+
+--------------------------------------------------------------------------------------
+time = 6
+possibleWorks:
+     w24: time = 4h, reserved time = 3h
+     w23: time = 6h, reserved time = 0h
+workers:
+     worker0 ends at time = 7 doing w13
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:w12, 
+At the moment works:
+     w13 ends at time = 7
+     w23 ends at time = 12
+     w24 ends at time = 10
+
+--------------------------------------------------------------------------------------
+time = 7
+possibleWorks:
+workers:
+     worker0 isn't working at the moment
+     worker1 ends at time = 12 doing w23
+     worker2 ends at time = 10 doing w24
+Done works:w13, 
+At the moment works:
+     w23 ends at time = 12
+     w24 ends at time = 10
+
+--------------------------------------------------------------------------------------
+time = 8
+possibleWorks:
+workers:
+     worker0 isn't working at the moment
+     worker1 ends at time = 12 doing w23
+     worker2 ends at time = 10 doing w24
+Done works:
+At the moment works:
+     w23 ends at time = 12
+     w24 ends at time = 10
+
+--------------------------------------------------------------------------------------
+time = 9
+possibleWorks:
+workers:
+     worker0 isn't working at the moment
+     worker1 ends at time = 12 doing w23
+     worker2 ends at time = 10 doing w24
+Done works:
+At the moment works:
+     w23 ends at time = 12
+     w24 ends at time = 10
+
+--------------------------------------------------------------------------------------
+time = 10
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+     w45: time = 6h, reserved time = 1h
+     w47: time = 6h, reserved time = 3h
+workers:
+     worker0 isn't working at the moment
+     worker1 ends at time = 12 doing w23
+     worker2 isn't working at the moment
+Done works:w24, 
+At the moment works:
+     w23 ends at time = 12
+     w47 ends at time = 16
+     w45 ends at time = 16
+
+--------------------------------------------------------------------------------------
+time = 11
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+workers:
+     worker0 ends at time = 16 doing w47
+     worker1 ends at time = 12 doing w23
+     worker2 ends at time = 16 doing w45
+Done works:
+At the moment works:
+     w23 ends at time = 12
+     w47 ends at time = 16
+     w45 ends at time = 16
+
+--------------------------------------------------------------------------------------
+time = 12
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+     w35: time = 5h, reserved time = 0h
+     w38: time = 5h, reserved time = 9h
+workers:
+     worker0 ends at time = 16 doing w47
+     worker1 isn't working at the moment
+     worker2 ends at time = 16 doing w45
+Done works:w23, 
+At the moment works:
+     w47 ends at time = 16
+     w45 ends at time = 16
+     w38 ends at time = 17
+
+--------------------------------------------------------------------------------------
+time = 13
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+     w35: time = 5h, reserved time = 0h
+workers:
+     worker0 ends at time = 16 doing w47
+     worker1 ends at time = 17 doing w38
+     worker2 ends at time = 16 doing w45
+Done works:
+At the moment works:
+     w47 ends at time = 16
+     w45 ends at time = 16
+     w38 ends at time = 17
+
+--------------------------------------------------------------------------------------
+time = 14
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+     w35: time = 5h, reserved time = 0h
+workers:
+     worker0 ends at time = 16 doing w47
+     worker1 ends at time = 17 doing w38
+     worker2 ends at time = 16 doing w45
+Done works:
+At the moment works:
+     w47 ends at time = 16
+     w45 ends at time = 16
+     w38 ends at time = 17
+
+--------------------------------------------------------------------------------------
+time = 15
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+     w35: time = 5h, reserved time = 0h
+workers:
+     worker0 ends at time = 16 doing w47
+     worker1 ends at time = 17 doing w38
+     worker2 ends at time = 16 doing w45
+Done works:
+At the moment works:
+     w47 ends at time = 16
+     w45 ends at time = 16
+     w38 ends at time = 17
+
+--------------------------------------------------------------------------------------
+time = 16
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+     w35: time = 5h, reserved time = 0h
+     w78: time = 7h, reserved time = 3h
+workers:
+     worker0 isn't working at the moment
+     worker1 ends at time = 17 doing w38
+     worker2 isn't working at the moment
+Done works:w47, w45, 
+At the moment works:
+     w38 ends at time = 17
+     w78 ends at time = 23
+     w35 ends at time = 21
+
+--------------------------------------------------------------------------------------
+time = 17
+possibleWorks:
+     w46: time = 4h, reserved time = 7h
+workers:
+     worker0 ends at time = 23 doing w78
+     worker1 isn't working at the moment
+     worker2 ends at time = 21 doing w35
+Done works:w38, 
+At the moment works:
+     w78 ends at time = 23
+     w35 ends at time = 21
+     w46 ends at time = 21
+
+--------------------------------------------------------------------------------------
+time = 18
+possibleWorks:
+workers:
+     worker0 ends at time = 23 doing w78
+     worker1 ends at time = 21 doing w46
+     worker2 ends at time = 21 doing w35
+Done works:
+At the moment works:
+     w78 ends at time = 23
+     w35 ends at time = 21
+     w46 ends at time = 21
+
+--------------------------------------------------------------------------------------
+time = 19
+possibleWorks:
+workers:
+     worker0 ends at time = 23 doing w78
+     worker1 ends at time = 21 doing w46
+     worker2 ends at time = 21 doing w35
+Done works:
+At the moment works:
+     w78 ends at time = 23
+     w35 ends at time = 21
+     w46 ends at time = 21
+
+--------------------------------------------------------------------------------------
+time = 20
+possibleWorks:
+workers:
+     worker0 ends at time = 23 doing w78
+     worker1 ends at time = 21 doing w46
+     worker2 ends at time = 21 doing w35
+Done works:
+At the moment works:
+     w78 ends at time = 23
+     w35 ends at time = 21
+     w46 ends at time = 21
+
+--------------------------------------------------------------------------------------
+time = 21
+possibleWorks:
+     w58: time = 3h, reserved time = 6h
+     w56: time = 4h, reserved time = 0h
+workers:
+     worker0 ends at time = 23 doing w78
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:w35, w46, 
+At the moment works:
+     w78 ends at time = 23
+     w56 ends at time = 25
+     w58 ends at time = 24
+
+--------------------------------------------------------------------------------------
+time = 22
+possibleWorks:
+workers:
+     worker0 ends at time = 23 doing w78
+     worker1 ends at time = 25 doing w56
+     worker2 ends at time = 24 doing w58
+Done works:
+At the moment works:
+     w78 ends at time = 23
+     w56 ends at time = 25
+     w58 ends at time = 24
+
+--------------------------------------------------------------------------------------
+time = 23
+possibleWorks:
+workers:
+     worker0 isn't working at the moment
+     worker1 ends at time = 25 doing w56
+     worker2 ends at time = 24 doing w58
+Done works:w78, 
+At the moment works:
+     w56 ends at time = 25
+     w58 ends at time = 24
+
+--------------------------------------------------------------------------------------
+time = 24
+possibleWorks:
+workers:
+     worker0 isn't working at the moment
+     worker1 ends at time = 25 doing w56
+     worker2 isn't working at the moment
+Done works:w58, 
+At the moment works:
+     w56 ends at time = 25
+
+--------------------------------------------------------------------------------------
+time = 25
+possibleWorks:
+     w68: time = 5h, reserved time = 0h
+workers:
+     worker0 isn't working at the moment
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:w56, 
+At the moment works:
+     w68 ends at time = 30
+
+--------------------------------------------------------------------------------------
+time = 26
+possibleWorks:
+workers:
+     worker0 ends at time = 30 doing w68
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w68 ends at time = 30
+
+--------------------------------------------------------------------------------------
+time = 27
+possibleWorks:
+workers:
+     worker0 ends at time = 30 doing w68
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w68 ends at time = 30
+
+--------------------------------------------------------------------------------------
+time = 28
+possibleWorks:
+workers:
+     worker0 ends at time = 30 doing w68
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w68 ends at time = 30
+
+--------------------------------------------------------------------------------------
+time = 29
+possibleWorks:
+workers:
+     worker0 ends at time = 30 doing w68
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w68 ends at time = 30
+
+--------------------------------------------------------------------------------------
+time = 30
+possibleWorks:
+     w89: time = 4h, reserved time = 0h
+workers:
+     worker0 isn't working at the moment
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:w68, 
+At the moment works:
+     w89 ends at time = 34
+
+--------------------------------------------------------------------------------------
+time = 31
+possibleWorks:
+workers:
+     worker0 ends at time = 34 doing w89
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w89 ends at time = 34
+
+--------------------------------------------------------------------------------------
+time = 32
+possibleWorks:
+workers:
+     worker0 ends at time = 34 doing w89
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w89 ends at time = 34
+
+--------------------------------------------------------------------------------------
+time = 33
+possibleWorks:
+workers:
+     worker0 ends at time = 34 doing w89
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:
+At the moment works:
+     w89 ends at time = 34
+
+--------------------------------------------------------------------------------------
+time = 34
+possibleWorks:
+workers:
+     worker0 isn't working at the moment
+     worker1 isn't working at the moment
+     worker2 isn't working at the moment
+Done works:w89, 
+At the moment works:
+
+--------------------------------------------------------------------------------------
+worker0 :+ + + + + + + - - - +  +  +  +  +  +  +  +  +  +  +  +  +  -  -  +  +  +  +  +  +  +  +  +  -  
+worker1 :+ + + + + + + + + + +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  -  -  -  -  -  -  -  -  -  -  
+worker2 :+ + + + - - + + + + +  +  +  +  +  +  +  +  +  +  +  +  +  +  -  -  -  -  -  -  -  -  -  -  -  
+time    :0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 
